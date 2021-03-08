@@ -1,6 +1,6 @@
-// El tiempo debe tener el siguiente formato
-// 12 o 24 horas -> "XX:YY"
-// Donde XX <= 23 y YY<= 59
+// Time must have following format:
+// 12 or 24 hours -> "XX:YY"
+// Where XX <= 23 and YY <= 59
 const timeValidator = (time) => {
   const parsedTime = time.split(':');
 
