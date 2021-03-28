@@ -12,3 +12,5 @@ const timeValidator = (time) => {
   );
   return new Date(newTime);
 };
+
+exports.module = timeValidator;
