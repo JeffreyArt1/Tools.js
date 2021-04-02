@@ -7,8 +7,8 @@ const timeValidator = (time) => {
   const newTime = new Date().setHours(
     parsedTime[0] > 23 ? 23 : parsedTime[0] < 0 ? 0 : parsedTime[0],
     parsedTime[1] > 59 ? 59 : parsedTime[1] < 0 ? 0 : parsedTime[1],
-    0,
-    0
+    null,
+    null
   );
   return new Date(newTime);
 };
