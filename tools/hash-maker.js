@@ -7,3 +7,5 @@ const hashMaker = (length) => {
   while (a.length < length) a += generate();
   return a.slice(0, length);
 };
+
+module.exports = hashMaker;
